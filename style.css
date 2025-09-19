@@ -84,6 +84,9 @@
     width: 70px;
     height: 80px;
 }
+#Services-section{
+    height: 850px;
+}
 #Services-container{
     margin: 0 auto;
     text-align: center;
@@ -130,7 +133,7 @@
     margin-top: -110px;
     text-align: center;
 }
-#s-btn{
+.s-btn{
     padding: 8px 24px;
     color: rgba(69, 143, 246, 1);
     border-radius: 55px;
@@ -152,4 +155,28 @@
     top: -350px;
     left: 700px;
     z-index: -100;
+}
+#healthcare-provider-container{
+    padding-top: 50px;
+    display: flex;
+    gap: 120px;
+    width: 80%;
+    margin: 0 auto;
+    align-items: center;
+}
+#healthcare-provider-img{
+    width: 400px;
+    height: 300px;
+}
+#healthcare-provider-right{
+
+    width: 350px;
+}
+#healthcare-provider-right p{
+    padding: 30px 0px 40px 0px;
+}
+#healthcare-title-border{
+    width: 80px;
+    border: 2px solid black;
+    margin-top: 15px;
 }
