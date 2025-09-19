@@ -174,9 +174,49 @@
 }
 #healthcare-provider-right p{
     padding: 30px 0px 40px 0px;
+    color: gray;
 }
 #healthcare-title-border{
     width: 80px;
     border: 2px solid black;
     margin-top: 15px;
+}
+#download-apps-container{
+    padding-top: 100px; 
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 120px;
+    width: 80%;
+    margin: 0 auto;
+    align-items: center;
+}
+#download-apps-img{
+    width: 400px;
+    height: 300px;
+}
+#download-apps-left{
+    width: 850px;
+}
+#healthcare-title-border{
+    width: 80px;
+    border: 2px solid black;
+    margin-top: 15px;
+}
+#download-apps-left p{
+    color: gray;
+    padding: 30px 0px 40px 0px;
+}
+#download-icon{
+    width: 8px;
+    height: 10px;
+}
+#download-dot{
+    position: relative;
+    top: -420px;
+    left: 1190px;
+    z-index: -100;
+}
+#dot-img{
+    width: 80px;
+    height: 80px;
 }
