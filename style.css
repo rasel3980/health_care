@@ -1,3 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+.mulish-font {
+  font-family: "Mulish", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
 #logo{
     width: 40px;
     height: 40px;
@@ -18,9 +29,13 @@
     gap: 8px;
 }
 #navbar{
+    height: 90px;
+    background-color: gray;
     padding: 0px 100px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    color: white;
 }
 #nav-list{
     display: flex;
@@ -32,5 +47,40 @@
 #nav-list a{
     text-decoration: none;
     font-size: 18px;
-    color: black;
+    color: white;
+}
+
+#banner{
+    position: absolute;
+    display: flex;
+    padding: 40px 100px;
+    align-items: center;
+    gap: 150px;
+}
+#banner-img{
+    width: 450px;
+    height: 350px;
+}
+#banner-title{
+    font-size: 40px;
+}
+#banner-description{
+    margin-top: 10px;
+    padding-bottom: 10px;
+    width: 330px;
+    color: gray;
+}
+#banner-btn{
+    background: #458FF6;
+    color: white;
+    padding: 8px 18px;
+    border-radius: 15px;
+    border: none;
+}
+#dot{
+    position: relative;
+    top: 20px;
+    left: -25px;
+    width: 70px;
+    height: 80px;
 }
